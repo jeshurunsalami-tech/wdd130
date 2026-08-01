@@ -46,7 +46,8 @@ main {
 
 header img {
     align-self: center;
-    padding: 0 auto;
+    width: 150px;
+    height: auto;
     margin: 0 auto;
 }
 
