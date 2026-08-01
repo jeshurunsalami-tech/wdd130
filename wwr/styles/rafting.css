@@ -164,7 +164,7 @@ footer p {
 }
 
 .grid {
-    padding: 0 auto;
+    padding: auto;
     margin: 0 auto;
     background-color: var(--text-color);
 }
