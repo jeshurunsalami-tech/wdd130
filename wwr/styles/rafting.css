@@ -292,8 +292,8 @@ footer p {
 }
 
 .radio-group input[type="radio"]:checked {
-    background-color: black;
-    box-shadow: inset 0 0 0 2px white;
+    background-color: #000;
+    box-shadow: inset 0 0 0 2px #fff;
 }
 
 .message {
