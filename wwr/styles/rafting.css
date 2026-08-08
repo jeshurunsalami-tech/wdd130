@@ -121,7 +121,7 @@ p {
     margin: 1em;
 }
 
-h2 {
+section h2 {
     background-color: var(--accent2-color);
     text-align: center;
     padding: 10px;
@@ -234,6 +234,7 @@ footer p {
     display: flex;
     flex-direction: column;
     padding-right: 25%;
+    color: #000;
 }
 
 .name {
@@ -260,7 +261,7 @@ footer p {
     padding-bottom: 50px;
 }
 
-.more h1 {
+.more h2 {
     padding: 10px;
 }
 
@@ -269,6 +270,10 @@ footer p {
     grid-template-columns: 100px 1fr;
     flex: 0.75;
     align-items: center;
+}
+
+.purpose p {
+    margin: 0;
 }
 
 .radio-group {
