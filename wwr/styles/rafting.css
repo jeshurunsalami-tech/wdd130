@@ -512,3 +512,88 @@ fieldset button {
     padding: 20px;
     margin: 0;
 }
+
+/*Trips page*/
+
+.introduction {
+    display: block;
+    text-align: center;
+    border: 1px solid #000;
+    width: 800px;
+    padding: 20px;
+    margin: 40px auto;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+}
+
+.rafting-trips {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.rafting-trip {
+    display: block;
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.rafting-trip img {
+    width: 200px;
+    height: auto;
+}
+
+.equipments {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.equipment {
+    display: block;
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.equipment img {
+    width: 200px;
+    height: auto;
+}
+
+.bring {
+    display: grid;
+    padding: 20px;
+    background-color: var(--back-color);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.item {
+    margin: 20px;
+}
+
+.call {
+    display: block;
+    margin: 100px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background-color: var(--back-color);
+}
+
+.call p {
+    padding: 20px;
+}
+
+.book {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 1.1rem;
+    background-color: var(--secondary-color);
+    color: #000;
+}
